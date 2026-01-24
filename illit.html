@@ -4,100 +4,211 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="ILLIT Fan-Page Website by Begginer Programmer, This Website Contains About ILLIT, Member, etc">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>ILLIT Digital Fan-Board</title>
     <style>
-        .gllit {
-            display: flex;
-            gap: 15px;
-            width: 220px;
-            height: 220px;
+        body {
+            background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+            background-attachment: fixed;
         }
 
-        body {
-            background-color: lightblue;
-            padding: 10px;
+        .card {
+            transition: transform 0.3s ease, shadow 0.3 ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            cursor: pointer;
         }
     </style>
 </head>
 
-<body>
-    <h1>ILLIT:Magnetic World</h1>
-    <h4>Create by:XtreamAstroo</h4>
-    <h2>Alasan Aku Menjadi GLLIT</h2>
-    <p>Hai! Alasan aku suka <b>ILLIT</b> dan menjadi fandom mereka alias GLLIT (Glitter) karena...</p>
-    <ol>
-        <li>Aku suka di concept mereka yaitu <i>dreamcore/magical girl</i></li>
-        <li>Alu suka karena dari lagu lagu mereka, apa lagi setelah mereka buat album baru mareka seperti "NOT CUTE
+<body class="bg-info-subtle">
+    <div class="bg-light p-5 rounded-lg m-3 shadow-sm text-center">
+        <h1 class="display-4 fw-bold">ILLIT:Magnetic World🩵</h1>
+        <p class="lead text-muted">Created by: <span class="badge bg-dark">XtreamAstroo</span></p>
+        <hr class="my-4">
+        <h2 class="h4 fw-semibold mb-4 text-start ms-md-5">Kenapa Aku Suka ILLIT?</h2>
+    <div class="container text-start">
+        <ul class="list-group list-group-flush shadow-sm rounded-4">
+            <li class="list-group-item">Aku suka di concept mereka yaitu <i>dreamcore/magical girl</i></li>
+        <li class="list-group-item">Aku suka karena dari lagu lagu mereka, apa lagi setelah mereka buat album baru mareka seperti "NOT CUTE
             ANYMORE"</li>
-        <li>Aku suka karena segi visual para member ILLIT <i>Yunah, Minju, Moka, Wonhee, dan Iroha</i></li>
-    </ol>
-    <div class="gllit">
-        <img src="https://i.pinimg.com/736x/c0/f5/eb/c0f5eb743c20b397e9772efdb93c428d.jpg" alt="Wonhee">
-        <img src="https://www.lemon8-app.com/seo/image?item_id=7383416737201078790&index=0&sign=6e9fc76198634282a0af4992cdec88ba"
-            alt="all member">
-        <img src="https://i.pinimg.com/736x/0f/a8/11/0fa811cf87d1177cc8f6d48f1fcd1570.jpg" alt="Iroha Photos">
+        <li class="list-group-item">Aku suka karena segi visual para member ILLIT <i>Yunah, Minju, Moka, Wonhee, dan Iroha</i></li>
+        </ul>
     </div>
-    <h2>All Member ILLIT</h2>
-    <ul>
-        <li>Yunah</li>
-        <li>Minju</li>
-        <li>Moka</li>
-        <li>Wonhee</li>
-        <li>Iroha</li>
-    </ul>
-    <h2>About Member</h2>
-    <table border="1">
+    </div>
+    <div class="text-center my-5">
+        <img src="https://www.lemon8-app.com/seo/image?item_id=7383416737201078790&index=0&sign=6e9fc76198634282a0af4992cdec88ba" class="img-fluid rounded-4 shadow-lg border-3 border-white" style="max-width: 600px" alt="all member">
+        <p class="text-muted mt-3 small"><i>Introducing The 5 Radiant Stars of ILLIT</i></p>
+    </div>
+    <h1 class="display-5 fw-bold text-center mt-5 mb-4">Visual & Talent Lineup</h1>
+    <h2 class="text-center mt-5 mb-4">
+        <span class="badge rounded-pill bg-dark px-4">About The Member</span>
+    </h2>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://i.pinimg.com/736x/03/2d/09/032d095d81b320d4c453684dc91debdb.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Yunah">
+                <div class="card-body">
+                    <h5 class="card-title">Yunah</h5>
+                    <p class="card-text">Leader, Main Dancer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://i.pinimg.com/736x/f5/9e/f9/f59ef98a896d6e65a78674695c866d8e.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Minju">
+                <div class="card-body">
+                    <h5 class="card-title">Minju</h5>
+                    <p class="card-text">Main Vocalist, Visual</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://i.pinimg.com/1200x/f2/19/b9/f219b9fd5662e4597c837b185dddceab.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Moka">
+                <div class="card-body">
+                    <h5 class="card-title">Moka</h5>
+                    <p class="card-text">Vocalist, Dancer, Center</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://i.pinimg.com/736x/f1/51/6b/f1516b315068fefb4b5d9e537d02cb3b.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Wonhee">
+                <div class="card-body">
+                    <h5 class="card-title">Wonhee</h5>
+                    <p class="card-text">Main Dancer, Vocalist</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://i.pinimg.com/736x/4e/de/99/4ede9955f1aace87d64cb07b3b39cfa9.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Iroha">
+                <div class="card-body">
+                    <h5 class="card-title">Iroha</h5>
+                    <p class="card-text">Dancer, Vocalist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center fw-bold mt-5 mb-3">ILLIT Deep Dive: Statistics</h2>
+    <p class="text-center text-muted">Get know more about our lovely members</p>
+    <table class="table table-hover table-info mt-4 table-striped mt-4" border="1">
+        <thead class="table-dark">
         <tr>
-            <th>Nama Member</th>
-            <th>Posisi</th>
-            <th>Hobi</th>
+            <th>Member</th>
+            <th>Birthday</th>
+            <th>MBTI</th>
+            <th>Emoji</th>
+            <th>Hobbies</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <td>Yunah</td>
-            <td>Leader, Main Dancer</td>
-            <td>Membaca Buku</td>
+            <td>Jan 15, 2004</td>
+            <td>ENFP</td>
+            <td>(🐆)</td>
+            <td>Playing PC games</td>
         </tr>
         <tr>
             <td>Minju</td>
-            <td>Main Vocalist, Visual</td>
-            <td>Membaca Komik</td>
+            <td>May 11, 2004</td>
+            <td>ISTP</td>
+            <td>(🐰)</td>
+            <td>Listening Music</td>
         </tr>
         <tr>
             <td>Moka</td>
-            <td>Vocalist, Dancer, Center</td>
-            <td>Menonton Drama</td>
+            <td>October 8, 2004</td>
+            <td>ISFP</td>
+            <td>(☕)</td>
+            <td>Eating Delicious Food</td>
         </tr>
         <tr>
             <td>Wonhee</td>
-            <td>Main Dancer, Vocalists, Maknae</td>
-            <td>Berenang</td>
+            <td>June 26, 2007</td>
+            <td>ISFP</td>
+            <td>(🐿️)</td>
+            <td>Playing Sports</td>
         </tr>
         <tr>
             <td>Iroha</td>
-            <td>Dancer, Vocalist</td>
-            <td>Membaca Manga</td>
+            <td>February 4, 2008</td>
+            <td>INFJ</td>
+            <td>(🐢)</td>
+            <td>Dancing</td>
         </tr>
+        </tbody>
     </table>
-    <h2>Top 5 My Favorite ILLIT Song</h2>
-    <ol>
-        <li>Magnetic</li>
-        <li>jellyous</li>
-        <li>NOT ME</li>
-        <li>NOT CUTE ANYMORE</li>
-        <li>little monster</li>
-    </ol>
-    <h2>Pesan Buat ILLIT</h2>
+    <h3 class="text-center mt-5 mb-3 fw-bold">Top 5 My Favorite ILLIT Song</h3>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-item-center">Magnetic
+            <span class="badge bg-primary rounded-pill">#1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-center">jellyous
+            <span class="badge bg-secondary rounded-pill">#2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-center">NOT ME
+            <span class="badge bg-secondary rounded-pill">#3</span>
+        </li>
+        <li class="list-group-item">NOT CUTE ANYMORE</li>
+        <li class="list-group-item">little monster</li>
+    </ul>
+    <div class="text-center card p-4 mt-5 shadow-sm">
+        <h3 class="fw-bold mb-3">Pesan Kamu Untuk ILLIT</h3>
     <form>
-        <label>Nama Pengirim:</label>
-        <input type="text" placeholder="Masukkan Namamu..."><br><br>
-        <label>Pesan Untuk ILLIT:</label>
-        <textarea></textarea>
-        <button type="submit">Submit</button>
+        <div class="mb-3">
+        <label class="form-label">Nama Pengirim:</label>
+        <input type="text" class="form-control" placeholder="Masukkan Namamu...">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Pesan Untuk ILLIT:</label>
+            <textarea class="form-control" rows="3" placeholder="Tulis Pesan Manis Kamuuu Di Sini~"></textarea>
+        </div>
+        <button type="button" class="btn btn-outline-success w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modalPesan">Kirim Sekarang!!!</button>
     </form>
+    </div>
     <br>
-    <h3>Link Random</h3>
-    <a href="https://www.instagram.com/illit_official?igsh=eDVqOXN1eDA1Zng4">ILLIT Instagram</a><br>
-    <a href="https://github.com/astrooleraf">My GitHub</a>
+    <div class="mt-5 mb-5 p-4 border rounded shadow-sm bg-light">
+        <h3 class="mb-4 fw-bold text-center">🌐 Connect With Us!</h3>
+    <div class="row text-area">
+        <div class="col-md-6 mb-3">
+            <p class="fw-bold text-muted">ILLIT Official</p>
+            <a href="https://www.instagram.com/illit_official?igsh=eDVqOXN1eDA1Zng4" class="btn btn-outline-primary w-75 mb-2 shadow-sm">Official Instagram</a>
+            <a href="https://beliftlab.com/artist/profile/ILLIT" class="btn btn-outline-danger w-75 shadow-sm">Official Website</a>
+        </div>
+        <div class="col-md-6">
+            <p class="fw-bold text-muted">The Creator</p>
+            <a href="https://www.instagram.com/anxietyofrel?igsh=ZTBtNXBsMWprMjZ5" class="btn btn-outline-primary w-75 mb-2 shadow-sm">My Instagram 1</a>
+            <a href="https://www.instagram.com/only.astrooo?igsh=NmF1ZmVwMTd6Zzk4" class="btn btn-outline-primary w-75 mb-2 shadow-sm">My Instagram 2</a>
+            <a href="https://github.com/xtreamastroo" class="btn btn-outline-dark w-75 mb-2 shadow-sm">My GitHub</a>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="modalPesan" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4">
+                <div class="modal-body text-center p-5">
+                    <h1 class="display-1 text-success mb-4">✨</h1>
+                    <h3 class="fw-bold">Pesan Terkirim!!!</h3>
+                    <p class="text-muted">Terima Kasih GLLIT! Telah Mengisi Pesan Ini.</p>
+                    <button type="button" class="btn btn-success w-100 text-white fw-bold mt-3" data-bs-dismiss="modal">OKE!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-bottom p-3 bg-light border-top shadow-sm d-flex align-item-center justify-content-center" style="opacity: 0.9;">
+        <p class="mb-0 me-3 fw-bold text-primary">Now Playing Magnetic - ILLIT</p>
+        <audio controls loop>
+            <source src="ilit.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
